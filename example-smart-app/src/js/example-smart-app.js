@@ -47,6 +47,7 @@
           p.gender = gender;
           p.fname = fname;
           p.lname = lname;
+          p.maritalstatus = patient.maritalStatus;
           p.height = getQuantityValueAndUnit(height[0]);
 
           if (typeof systolicbp != 'undefined')  {
@@ -78,6 +79,7 @@
       lname: {value: ''},
       gender: {value: ''},
       birthdate: {value: ''},
+      maritalstatus:{value: ''},
       height: {value: ''},
       systolicbp: {value: ''},
       diastolicbp: {value: ''},
@@ -121,6 +123,7 @@
     $('#lname').html(p.lname);
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
+    $('#maritalstatus').html(p.maritalstatus);
     $('#height').html(p.height);
     $('#systolicbp').html(p.systolicbp);
     $('#diastolicbp').html(p.diastolicbp);
