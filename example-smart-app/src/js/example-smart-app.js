@@ -48,7 +48,7 @@
           p.fname = fname;
           p.lname = lname;
           p.maritalstatus = patient.maritalStatus;
-          p.communication = patient;
+          p.communication = "Hindi";
           p.height = getQuantityValueAndUnit(height[0]);
 
           if (typeof systolicbp != 'undefined')  {
